@@ -1,0 +1,7 @@
+//Basic c style quad_tree struct
+typedef struct {
+	int id;
+	byte color;
+	quad_tree *parent;
+	quad_tree *children[4];
+} quad_tree;
